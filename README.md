@@ -3,11 +3,13 @@ print("helloworld")
 # feature-A test
 在不同分支下，就算查看本地文件都不会一样，在不同分支下本地文件也会随之改变。
 # git 操作
-`git add` 添加至暂存区  
+`git add xxx` 添加至暂存区  
 
-`git commit` 提交到仓库
+`git commit -m '提交一份...'` 提交到仓库
 
 `git commit -am` 合并add与commit操作
+
+`git push` 同步到github上
 
 `git log` 只能查看以当前状态为终点的历史日志。所以这里要使用git 
 
@@ -25,3 +27,4 @@ print("helloworld")
 
 `git reset --hard ***` 回溯到指定时间点，***为该时间点的希哈值，在git log中查看历史节点，在git reflog查看未来节点
 
+`git pull origin master`从服务器同步最新的分支或者主线master到本地仓库
