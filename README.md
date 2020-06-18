@@ -3,8 +3,6 @@ print("helloworld")
 # feature-A test
 在不同分支下，就算查看本地文件都不会一样，在不同分支下本地文件也会随之改变。
 # git 操作
-<<<<<<< HEAD
-
 `git add` 添加至暂存区  
 
 `git commit` 提交到仓库
